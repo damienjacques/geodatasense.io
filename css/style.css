@@ -4,7 +4,13 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
  */
 
-html { font-size: calc(0.7em + 0.5vw) }
+
+
+
+
+html {
+    font-size: calc(0.7em + 0.5vw)
+}
 
 body {
     color: #000000;
@@ -277,4 +283,41 @@ section.Tech {
     text-transform: uppercase;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+}
+
+
+
+/* -------------- CSS --------------- */
+#lang-switch img {
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+    transition: all .5s;
+    margin: auto 3px;
+    margin-top: 12%;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#lang-switch img:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.fr_lang,
+.en_lang {
+    display: none;
+    transition: display .5s;
+}
+
+/* Language */
+.active-lang {
+    display: flex !important;
+}
+
+.active-flag {
+    transition: all .5s;
+    opacity: 1 !important;
 }
