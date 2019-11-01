@@ -314,7 +314,7 @@ section.Tech {
 
 /* Language */
 .active-lang {
-    display: flex !important;
+    display:block
 }
 
 .active-flag {
