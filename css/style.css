@@ -165,20 +165,13 @@ section.Tech {
 
 .title {
     font-family: 'Oswald', sans-serif;
-    font-size: 1.8em;
+    font-size: 1.5em;
     line-height: 1.2em;
     text-align: left;
     text-transform: initial;
 }
 
-@media only screen and (max-width: 800px) {
-.title {
-    font-family: 'Oswald', sans-serif;
-    font-size: 0.5em;
-    line-height: 1em;
-    text-align: left;
-    text-transform: initial;
-}
+
     
     .divider {
     background-color: #fff;
