@@ -1,0 +1,363 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+
+body {
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/pencil.jpeg");
+
+    /* Set a specific height */
+    height: 35vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: skewY(-3deg);
+    margin-top: -2%;
+
+}
+
+.bio {
+    font-size: 0.85vw;
+    margin: 1vw;
+
+}
+
+
+.avatar img {
+    width: 50%;
+    height: 50%;
+}
+
+
+
+hr {
+    display: block;
+    height: 2vw;
+    border: 0;
+    border-top: 0px solid white;
+    margin: 1em 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 5vw;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    transform: skewY(3deg);
+}
+
+h4 {
+    font-size: 1.3vw;
+    color: #000000;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1.3vw;
+
+}
+
+h2 {
+    font-size: 3vw;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.UseCases {
+    /*tbackground: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    transform: skewY(-3deg);*/
+}
+
+#UseCases-container {
+    /*ttransform: skewY(3deg);*/
+}
+
+
+section.pricing {
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+    color: #ffffff;
+    /*transform: skewY(3deg); */
+    /*margin-bottom: -50px; */
+    /*-webkit-backface-visibility: hidden; */
+
+}
+
+
+
+section.Tech {
+    background: #41BDB9;
+
+    color: #ffffff;
+    transform: skewY(-3deg);
+}
+
+.Tech .brands,
+.Tech h2 {
+    transform: skewY(3deg);
+}
+
+.team-section .team .bio p {
+    font-size: :10vw;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    /*transform: skewY(-3deg);*/
+
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+    opacity: 0.7;
+}
+
+.pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+}
+
+.card-text-list {
+    text-align: left;
+    list-style-position: inside;
+    list-style: none;
+
+}
+
+.big-icon {
+    font-size: 4vw;
+}
+
+
+.map-container-section {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container-section iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.so-great {
+    background: #DB5838;
+
+    transform: skewY(3deg);
+    color: white
+}
+
+#so-great-container {
+    transform: skewY(-3deg);
+}
+
+.owl-item.active:first-child {
+    display: none;
+}
+
+
+/* Slider */
+
+.brands_nav {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 5px;
+    cursor: pointer
+}
+
+.brands_nav i {
+    color: #e5e5e5;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease
+}
+
+.brands_nav:hover i {
+    color: #676767
+}
+
+.brands_prev {
+    left: 40px
+}
+
+.brands_next {
+    right: 40px
+}
+
+.sub-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.title {
+    font-family: 'Libre Baskerville', "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 2vw;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    text-transform: initial;
+}
+
+.divider {
+    background-color: #fff;
+    height: 1px;
+    width: 35px;
+}
+
+.UserCases .col-lg-1,
+.UserCases.col-lg-10,
+.UserCases.col-lg-11,
+.UserCases.col-lg-12,
+.UserCases.col-lg-2,
+.UserCases.col-lg-3,
+.UserCases.col-lg-4,
+.UserCases.col-lg-5,
+.UserCases.col-lg-6,
+.UserCases.col-lg-7,
+.UserCases.col-lg-8,
+.UserCases.col-lg-9,
+.UserCases.col-md-1,
+.UserCases.col-md-10,
+.UserCases.col-md-11,
+.UserCases.col-md-12,
+.UserCases.col-md-2,
+.UserCases.col-md-3,
+.UserCases.col-md-4,
+.UserCases.col-md-5,
+.UserCases.col-md-6,
+.UserCases.col-md-7,
+.UserCases.col-md-8,
+.UserCases.col-md-9,
+.UserCases.col-sm-1,
+.UserCases.col-sm-10,
+.UserCases.col-sm-11,
+.UserCases.col-sm-12,
+.UserCases.col-sm-2,
+.UserCases.col-sm-3,
+.UserCases.col-sm-4,
+.UserCases.col-sm-5,
+.UserCases.col-sm-6,
+.UserCases.col-sm-7,
+.UserCases.col-sm-8,
+.UserCases.col-sm-9,
+.UserCases.col-xs-1,
+.UserCases.col-xs-10,
+.UserCases.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.portfolio-container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.image {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.overlay {
+    background-color: #000;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    transition: .5s ease;
+    top: 0;
+    width: 100%;
+}
+
+.overlay p,
+.overlay .divider {
+    margin: 3vw;
+    margin-top: 5vw
+}
+
+.overlay .divider {
+    margin: 3vw;
+}
+
+.cell-container:hover .overlay {
+    opacity: .75;
+}
+
+.text {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
