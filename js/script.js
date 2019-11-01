@@ -126,4 +126,8 @@ $(document).ready(function(){
 $('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
+
+$('#lang-switch').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
                         
