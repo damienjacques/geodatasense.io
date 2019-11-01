@@ -168,41 +168,6 @@ section.Tech {
 }
 
 
-/* Slider */
-
-.brands_nav {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    padding: 5px;
-    cursor: pointer
-}
-
-.brands_nav i {
-    color: #e5e5e5;
-    -webkit-transition: all 200ms ease;
-    -moz-transition: all 200ms ease;
-    -ms-transition: all 200ms ease;
-    -o-transition: all 200ms ease;
-    transition: all 200ms ease
-}
-
-.brands_nav:hover i {
-    color: #676767
-}
-
-.brands_prev {
-    left: 40px
-}
-
-.brands_next {
-    right: 40px
-}
-
 
 .title {
     font-family: 'Libre Baskerville', "Times New Roman", Times, Baskerville, Georgia, serif;
@@ -293,12 +258,12 @@ section.Tech {
 
 .overlay p,
 .overlay .divider {
-    margin: 3vw;
-    margin-top: 5vw
+    margin: 2em;
+    margin-top: 3em
 }
 
 .overlay .divider {
-    margin: 3vw;
+    margin: 2.8em;
 }
 
 .cell-container:hover .overlay {
