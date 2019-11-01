@@ -60,7 +60,7 @@ hr {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 3.8em;
     color: #fff;
     font-family: 'Oswald', sans-serif;
     transform: skewY(3deg);
@@ -264,7 +264,7 @@ section.Tech {
 .overlay p,
 .overlay .divider {
     margin: 2em;
-    margin-top: 3em
+    margin-top: 2em
 }
 
 .overlay .divider {
