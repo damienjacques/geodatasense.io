@@ -24,7 +24,7 @@ body {
     background-image: url("../img/pencil.jpeg");
 
     /* Set a specific height */
-    height: calc(18em + 15vw);
+    height: calc(20em + 15vw);
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
