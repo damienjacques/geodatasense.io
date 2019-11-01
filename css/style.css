@@ -165,20 +165,13 @@ section.Tech {
 
 .title {
     font-family: 'Oswald', sans-serif;
-    font-size: 1.5em;
+    font-size: calc(0.9em + 0.9vw);
     line-height: 1.2em;
     text-align: left;
     text-transform: initial;
 }
 
 
-    
-    .divider {
-    background-color: #fff;
-    height: 2px;
-    width: 50px;
-}
-}
 
 .divider {
     background-color: #fff;
