@@ -118,9 +118,6 @@ section.Tech {
     transform: skewY(3deg);
 }
 
-
-
-
 .pricing .card {
     border: none;
     border-radius: 1rem;
@@ -131,6 +128,11 @@ section.Tech {
 }
 
 
+.navbar-brand{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+}
+
 .card-text-list {
     text-align: left;
     list-style-position: inside;
@@ -140,6 +142,7 @@ section.Tech {
 
 .big-icon {
     font-size: 3em;
+    vertical-align: middle;
 }
 
 
