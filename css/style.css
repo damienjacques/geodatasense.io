@@ -268,7 +268,7 @@ section.Tech {
 }
 
 .overlay .divider {
-    margin: 2.8em;
+    margin: 3.5em;
 }
 
 .cell-container:hover .overlay {
@@ -309,12 +309,13 @@ section.Tech {
 .fr_lang,
 .en_lang {
     display: none;
-    transition: display .5s;
+
 }
 
 /* Language */
 .active-lang {
-    display:block
+    display:block;
+
 }
 
 .active-flag {
