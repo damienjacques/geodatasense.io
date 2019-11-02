@@ -61,6 +61,11 @@ AOS.init({
   duration: 1200,
 })
 
+ //refresh animations
+ $(window).on('load', function() {
+    AOS.refresh();
+ });
+
 
 /* Carousel tools & software */
 $(document).ready(function() {
