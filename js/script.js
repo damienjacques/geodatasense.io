@@ -94,8 +94,8 @@ owl.owlCarousel({
 $(document).ready(function(){
   
   // By default
-  $('.en_lang').addClass("active-lang");
-  $('#lang-switch .en').addClass("active-flag");
+  $('.fr_lang').addClass("active-lang");
+  $('#lang-switch .fr').addClass("active-flag");
   
   // Function switch
   $(function() {

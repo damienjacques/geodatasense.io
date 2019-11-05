@@ -47,7 +47,7 @@ hr {
 }
 
 h1 {
-    font-size: 3.8em;
+    font-size: calc(2.5em + 1vw);
     color: #fff;
     font-family: 'Oswald', sans-serif;
     transform: skewY(3deg);
@@ -218,4 +218,34 @@ section.Tech {
 .active-flag {
     transition: all .5s;
     opacity: 1 !important;
+}
+
+.example_a {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.57);
+    padding: 0.9em;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    transform: skewY(3deg);
+    font-family: 'Oswald', sans-serif;
+}
+
+.example_a:hover {
+    background: #f20081;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px #f20081;
+    -moz-box-shadow: 0px 5px 40px -10px #f20081;
+    box-shadow: 5px 40px -10px #f20081;
+    transition: all 0.4s ease 0s;
+}
+
+.button_cont{
+     position:absolute;
+     top: 80%;
+            left: 50%;
+            transform: translate(-50%, -25%);
 }
