@@ -4,6 +4,6 @@ GeoData Sense: training for GIS, remote sensing, spatial data analytics and data
 
 ## Status
 
-unpublished
+Published at www.geodatasense.com
 
 
